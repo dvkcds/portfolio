@@ -1,8 +1,46 @@
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-	font-family: 'Roboto', sans-serif;
+*, body
+{
+  font-family: 'Roboto', sans-serif;
+  background-color: #BEE3A7;
+}
+
+nav {
+  width: 800px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+}
+
+#star {
+  padding: 12px;
+}
+h1 {
+  font-size: 2em;
+}
+
+nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  border: 1px solid black;
+}
+
+#about {
+  border: 1px solid black;
+  width: 800px;
+  margin: 0 auto;
 }
